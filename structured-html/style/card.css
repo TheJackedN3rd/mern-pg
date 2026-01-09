@@ -1,0 +1,39 @@
+body{
+    max-width: 1500px;
+    background-color: bisque;
+    margin: 0 auto;
+}
+.card-section{
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    border: 2px solid lightcoral;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 10px 10px 10px rgb(41, 40, 40);
+}
+.card:hover{
+    background-color: aqua;
+}
+.card h3{
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.card img{
+    width: 100%;
+}
+
+.card button{
+    background-color: lightcoral;
+    padding: 10px 30px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    cursor: pointer;
+}
